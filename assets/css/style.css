@@ -260,6 +260,7 @@ footer .principal {
 
 .column h2 {
     margin-bottom: 20px;
+    color: #7288DA;
 }
 
 .column img {
@@ -290,12 +291,22 @@ footer .principal {
     display: flex;
 }
 
- ul  {
-    display: flex;
-    justify-content: space-between;
+ .bigger  {
+    
     margin: 0px 60px;
     list-style: none;
-    width: calc( 100% / 5 );
+        width: calc(100% / 5);
+}
+
+ .smaller {
+    list-style: none;
+    margin: 0px 60px;
+    line-height: 45px;
+}
+
+.smaller .blue {
+    font-size: 20px;
+    color: #7288DA;
 }
 
 .footer,
