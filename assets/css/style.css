@@ -183,15 +183,25 @@ header {
 
 /* Parte orizzontale sopra al footer */
 .bottom-principal {
-    background-color: rgb(166, 123, 206);
+    /* background-color: rgb(166, 123, 206); */
 }
 
 .content .tecnology {
-    background-color: rgb(145, 112, 112);
+    /* background-color: rgb(145, 112, 112); */
 }
 
 .content .pic {
-    background-color: rgb(195, 126, 126);
+    /* background-color: rgb(195, 126, 126); */
+}
+
+.tecnology h2 {
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.tecnology p {
+    margin-top: 50px;
+    font-size: 20px;
 }
 
 .bottom-principal .content {
@@ -205,13 +215,33 @@ header {
 .bottom-principal .cta {
     width: 80%;
     margin: 0 auto;
-    background-color: rgb(145, 112, 112);
+    /* background-color: rgb(145, 112, 112); */
 
+}
+
+.cta  {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 40px;
+}
+
+.cta button {
+    margin: 15px 15px;
+    border: 0;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: #8EA0E1;
+    color: white;
 }
 
 /* footer */
 footer .principal {
     background-color: pink;
+    margin-top: 70px;
 }
 
 .col {
@@ -223,12 +253,21 @@ footer .principal {
 
 .col .column {
     flex-basis: 30%;
-    background-color: darkmagenta;
+    /* background-color: darkmagenta; */
 }
 
 .col .column-1 {
     flex-basis: 68%;
-    background-color: rgb(181, 1, 181);
+    /* background-color: rgb(181, 1, 181); */
+    display: flex;
+}
+
+ ul  {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 60px;
+    list-style: none;
+    width: calc( 100% / 5 );
 }
 
 .footer,
