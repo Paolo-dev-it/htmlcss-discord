@@ -71,6 +71,7 @@ header {
 .download {
     width: 80%;
     margin: auto;
+    margin-bottom: 70px;
     /* height: 500px; */
     /* background-color: red; */
 }
@@ -80,9 +81,11 @@ header {
 }
 
 .contenuto .text {
-    padding: 25px 20px;
+    padding: 15px 20px;
     color: white;
+    margin-top: 30px;
 }
+
 
 /* stile bottoni */
 .contenuto .button-1 {
@@ -106,7 +109,7 @@ header {
 
 /* Parte principale sito web I Parte */
 .principal {
-    background-color: peru;
+    background-color: #F5F5DB;
 }
 
 .principal .content {
@@ -126,12 +129,25 @@ header {
 
 .content .description {
     flex-basis: 40%;
-    background-color: rgb(155, 155, 138);
+    /* background-color: rgb(155, 155, 138); */
+    align-items: left;
+    padding: 70px;
+}
+
+.description h2 {
+    margin-bottom: 30px;
+    font-size: 40px;      
+}
+
+.description p {
+    line-height: 30px;
+    font-size: 20px;
 }
 
 /* Parte principale sito web II Parte */
 .principal-1 {
-    background-color: rgb(170, 141, 112);
+    /* background-color: rgb(170, 141, 112); */
+        background-color: #F5F5DB;
 }
 
 .principal-1 .content-1 {
@@ -148,8 +164,21 @@ header {
 }
 
 .content-1 .description-1 {
-    background-color: rgb(155, 155, 138);
+    /* background-color: rgb(155, 155, 138); */
     flex-basis: 40%;
+    padding: 70px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.description-1 h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.description-1 p {
+    line-height: 30px;
+    font-size: 20px;
 }
 
 /* Parte orizzontale sopra al footer */
