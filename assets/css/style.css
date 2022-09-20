@@ -6,13 +6,15 @@
 
 /* header section */
 header {
-    background-color: aqua;
+    background-image:url( "../img/jumbo.png" );
+    background-size: cover;
+    padding: 20px;
 }
 
 .menu {
     width: 80%;
     margin: 0 auto;
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
     justify-content: space-between;
 }
@@ -21,7 +23,7 @@ header {
 .menu .logo {
     /* width: 100px; */
     /* height: 100px; */
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,19 +33,22 @@ header {
 .menu .button {
     /* width: 100px; */
     /* height: 100px; */
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 30px;
+    padding: 10px;
 }
 
 /* lista centrale sul nav */
 .menu .list {
     /* width: 700px; */
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color: white;
 }
 
 .list-items {
@@ -67,7 +72,7 @@ header {
     width: 80%;
     margin: auto;
     /* height: 500px; */
-    background-color: red;
+    /* background-color: red; */
 }
 
 .contenuto {
@@ -75,14 +80,29 @@ header {
 }
 
 .contenuto .text {
-    padding: 50px 30px;
+    padding: 25px 20px;
+    color: white;
 }
 
 /* stile bottoni */
 .contenuto .button-1 {
     padding: 10px 20px;
     margin-bottom: 50px;
+    border-radius: 30px;
+    border: 0;
+    margin-right: 10px;
 }
+
+.contenuto .button-2 {
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: 0;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+}
+
 
 /* Parte principale sito web I Parte */
 .principal {
