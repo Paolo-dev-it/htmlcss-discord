@@ -240,8 +240,9 @@ header {
 
 /* footer */
 footer .principal {
-    background-color: pink;
+    background-color: #23272A;
     margin-top: 70px;
+    color: white;
 }
 
 .col {
@@ -254,6 +255,33 @@ footer .principal {
 .col .column {
     flex-basis: 30%;
     /* background-color: darkmagenta; */
+    margin-bottom: 20px;
+}
+
+.column h2 {
+    margin-bottom: 20px;
+}
+
+.column img {
+    width: 20%;
+}
+
+ .column .italy {
+    vertical-align: super;
+}
+
+#arrow {
+    vertical-align: super;
+    font-size: 25px;
+}
+
+.column .icons {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.icons .fa-brands {
+    padding:5px;
 }
 
 .col .column-1 {
