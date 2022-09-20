@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* header section */
@@ -14,16 +23,12 @@ header {
 .menu {
     width: 80%;
     margin: 0 auto;
-    /* background-color: orange; */
     display: flex;
     justify-content: space-between;
 }
 
 /* logo */
 .menu .logo {
-    /* width: 100px; */
-    /* height: 100px; */
-    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,20 +36,16 @@ header {
 
 /* bottone login */
 .menu .button {
-    /* width: 100px; */
-    /* height: 100px; */
-    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 30px;
     padding: 10px;
+    border: 0;
 }
 
 /* lista centrale sul nav */
 .menu .list {
-    /* width: 700px; */
-    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -72,44 +73,54 @@ header {
     width: 80%;
     margin: auto;
     margin-bottom: 70px;
-    /* height: 500px; */
-    /* background-color: red; */
 }
 
 .contenuto {
     text-align: center;
 }
 
+.contenuto h1 {
+    padding: 15px 20px;
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
 .contenuto .text {
     padding: 15px 20px;
     color: white;
     margin-top: 30px;
+    font-size: 25px;
 }
 
 
 /* stile bottoni */
 .contenuto .button-1 {
-    padding: 10px 20px;
-    margin-bottom: 50px;
+    padding: 24px 38px;
+    margin-top: 50px;
     border-radius: 30px;
     border: 0;
     margin-right: 10px;
+    font-size: 20px;
 }
 
 .contenuto .button-2 {
-    padding: 10px 20px;
+    padding: 24px 38px;
     margin-bottom: 50px;
     border-radius: 30px;
     border: 0;
     margin-right: 10px;
     background-color: black;
     color: white;
+    font-size: 20px;
 }
 
 
 /* Parte principale sito web I Parte */
 .principal {
     background-color: #F5F5DB;
+    padding: 100px 20px;
 }
 
 .principal .content {
@@ -124,12 +135,10 @@ header {
 
 .content .img {
     flex-basis: 58%;
-    background-color: beige;
 }
 
 .content .description {
     flex-basis: 40%;
-    /* background-color: rgb(155, 155, 138); */
     align-items: left;
     padding: 70px;
 }
@@ -146,8 +155,8 @@ header {
 
 /* Parte principale sito web II Parte */
 .principal-1 {
-    /* background-color: rgb(170, 141, 112); */
-        background-color: #F5F5DB;
+        background-color: #FFFFFF;
+        margin: 100px 30px;
 }
 
 .principal-1 .content-1 {
@@ -160,39 +169,28 @@ header {
 
 .content-1 .img-1 {
     flex-basis: 58%;
-    background-color: beige;
 }
 
 .content-1 .description-1 {
-    /* background-color: rgb(155, 155, 138); */
     flex-basis: 40%;
     padding: 70px;
     text-align: left;
-    line-height: 30px;
 }
 
 .description-1 h2 {
     font-size: 40px;
     margin-bottom: 30px;
+    line-height: 50px;
+    text-align: left;
 }
 
 .description-1 p {
-    line-height: 30px;
     font-size: 20px;
+    text-align: left;
 }
 
 /* Parte orizzontale sopra al footer */
-.bottom-principal {
-    /* background-color: rgb(166, 123, 206); */
-}
 
-.content .tecnology {
-    /* background-color: rgb(145, 112, 112); */
-}
-
-.content .pic {
-    /* background-color: rgb(195, 126, 126); */
-}
 
 .tecnology h2 {
     margin-top: 100px;
@@ -215,7 +213,6 @@ header {
 .bottom-principal .cta {
     width: 80%;
     margin: 0 auto;
-    /* background-color: rgb(145, 112, 112); */
 
 }
 
@@ -232,17 +229,21 @@ header {
 .cta button {
     margin: 15px 15px;
     border: 0;
-    border-radius: 30px;
-    padding: 10px 20px;
+    border-radius: 50px;
+    padding: 24px 55px;
     background-color: #8EA0E1;
     color: white;
+    font-size: 20px;
 }
 
 /* footer */
+
+
 footer .principal {
     background-color: #23272A;
     margin-top: 70px;
     color: white;
+    padding: 50px 20px;
 }
 
 .col {
@@ -254,7 +255,6 @@ footer .principal {
 
 .col .column {
     flex-basis: 30%;
-    /* background-color: darkmagenta; */
     margin-bottom: 20px;
 }
 
@@ -264,7 +264,7 @@ footer .principal {
 }
 
 .column img {
-    width: 20%;
+    width: 30px;
 }
 
  .column .italy {
@@ -295,24 +295,24 @@ footer .principal {
     
     margin: 0px 60px;
     list-style: none;
-        width: calc(100% / 5);
+        width: calc(100% / 4);
 }
 
  .smaller {
     list-style: none;
-    margin: 0px 60px;
+    margin: 0px 22px;
     line-height: 45px;
 }
 
 .smaller .blue {
     font-size: 20px;
     color: #7288DA;
+    font-weight: 900;
 }
 
 .footer,
 .lista {
     border-top: 2px solid #7288DA;
-    /* background-color: pink; */
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -323,23 +323,13 @@ footer .principal {
     margin: 50px 15px;
     border: 0;
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 15px 25px;
     background-color: #8EA0E1;
     color: white;
+    font-weight: 900;
 }
 
 .logo-footer  {
     margin-top: 50px ;
 }
 
-.lista .logo-footer {
-    /* width: 100px; */
-    /* height: 100px; */
-    /* background-color: rgb(202, 121, 135); */
-}
-
-.lista .subscribe {
-    /* width: 100px; */
-    /* height: 100px; */
-    /* background-color: rgb(202, 121, 135); */
-}
