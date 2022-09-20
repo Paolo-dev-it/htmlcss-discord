@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section */
+header {
+    background-color: aqua;
+}
+
+.menu {
+    width: 80%;
+    margin: 0 auto;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* logo */
+.menu .logo {
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* bottone login */
+.menu .button {
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* lista centrale sul nav */
+.menu .list {
+    /* width: 700px; */
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list-items {
+    display: flex;
+    list-style: none;
+
+}
+
+.items {
+    margin-right: 60px;
+}
+
+/* Sezione centrale sotto il nav */
+.bottom-nav {
+    width: 60%;
+    margin: auto;
+
+}
+
+.download {
+    width: 80%;
+    margin: auto;
+    /* height: 500px; */
+    background-color: red;
+}
+
+.contenuto {
+    text-align: center;
+}
+
+.contenuto .text {
+    padding: 50px 30px;
+}
+
+/* stile bottoni */
+.contenuto .button-1 {
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+/* Parte principale sito web I Parte */
+.principal {
+    background-color: peru;
+}
+
+.principal .content {
+    width: 80%;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .img {
+    flex-basis: 58%;
+    background-color: beige;
+}
+
+.content .description {
+    flex-basis: 40%;
+    background-color: rgb(155, 155, 138);
+}
+
+/* Parte principale sito web II Parte */
+.principal-1 {
+    background-color: rgb(170, 141, 112);
+}
+
+.principal-1 .content-1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.content-1 .img-1 {
+    flex-basis: 58%;
+    background-color: beige;
+}
+
+.content-1 .description-1 {
+    background-color: rgb(155, 155, 138);
+    flex-basis: 40%;
+}
+
+/* Parte orizzontale sopra al footer */
+.bottom-principal {
+    background-color: rgb(166, 123, 206);
+}
+
+.content .tecnology {
+    background-color: rgb(145, 112, 112);
+}
+
+.content .pic {
+    background-color: rgb(195, 126, 126);
+}
+
+.bottom-principal .content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bottom-principal .cta {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(145, 112, 112);
+
+}
+
+/* footer */
+footer .principal {
+    background-color: pink;
+}
+
+.col {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col .column {
+    flex-basis: 30%;
+    background-color: darkmagenta;
+}
+
+.col .column-1 {
+    flex-basis: 68%;
+    background-color: rgb(181, 1, 181);
+}
+
+.footer,
+.lista {
+    border-top: 5px solid white;
+    background-color: pink;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista .logo-footer {
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: rgb(202, 121, 135);
+}
+
+.lista .subscribe {
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: rgb(202, 121, 135);
+}
