@@ -311,22 +311,35 @@ footer .principal {
 
 .footer,
 .lista {
-    border-top: 5px solid white;
-    background-color: pink;
+    border-top: 2px solid #7288DA;
+    /* background-color: pink; */
     width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
+.subscribe button {
+    margin: 50px 15px;
+    border: 0;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: #8EA0E1;
+    color: white;
+}
+
+.logo-footer  {
+    margin-top: 50px ;
+}
+
 .lista .logo-footer {
     /* width: 100px; */
     /* height: 100px; */
-    background-color: rgb(202, 121, 135);
+    /* background-color: rgb(202, 121, 135); */
 }
 
 .lista .subscribe {
     /* width: 100px; */
     /* height: 100px; */
-    background-color: rgb(202, 121, 135);
+    /* background-color: rgb(202, 121, 135); */
 }
