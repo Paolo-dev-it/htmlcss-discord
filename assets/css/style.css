@@ -18,6 +18,7 @@ header {
     background-image:url( "../img/jumbo.png" );
     background-size: cover;
     padding: 20px;
+    background-repeat: no-repeat;
 }
 
 .menu {
@@ -289,13 +290,13 @@ footer .principal {
     flex-basis: 68%;
     /* background-color: rgb(181, 1, 181); */
     display: flex;
+    width: calc(100% / 4);
 }
 
  .bigger  {
     
     margin: 0px 60px;
     list-style: none;
-        width: calc(100% / 4);
 }
 
  .smaller {
